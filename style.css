@@ -1,0 +1,178 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+#navbar{
+    background-color: blue;
+}
+.navbar-brand{
+    color: white;
+}
+#navbar{
+    margin-top: 25px;
+    position: fixed;
+    z-index: 1;
+}
+.main{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.main h1{
+    font-size: 60px;
+    padding-top: 70px;
+}
+.main p{
+    font-size: 20px;
+}
+.product h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.box{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-grow: 3;
+margin-top: -20px;
+}
+.card{
+    width: 300px;
+    height: 420px;
+    margin: 40px 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+.card img{
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+.card h4{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.card p{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.button{
+    width: 250px;
+    margin: auto;
+    border-radius: 4px;
+    background-color: white;
+    color: blue;
+    margin-top: -2px; 
+    border: 1px solid blue;  
+}
+.button:hover{
+    width: 260px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+}
+.container{
+    background-color: rgb(240, 240, 240);
+        text-align: center; 
+        margin-top: 50px;
+}
+.container h1{
+    text-align: center;
+}
+.container .card1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#card{
+    height: 200px;
+    border: none;
+    box-shadow: 5px 5px 5px grey;
+}
+.card .image{
+width: 50px;
+height: 50px;
+margin: auto;
+}
+.card p{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.card h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card1 p{
+    text-align: center;
+}
+.contact{
+    margin-top: 80px;
+}
+.container .form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    flex-shrink: 2;
+}
+.form input{
+    margin: auto;
+    width: 500px;
+    height: 30px;
+}
+.form textarea{
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    resize: vertical;
+}
+.form label{
+    text-align: left;
+}
+.container .btn{
+    margin-top: 30px;
+    width: 140px;
+}
+footer{
+margin-top: 30px;
+background-color: blue;
+color: white;
+height: 30px;
+align-items: center;
+}
+@media only screen and (max-width: 320px){
+    .main{
+        width: 550px;
+    }
+    .main h1{
+        padding-top: 50px;
+    }
+    .product{
+        width: 550px;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 550px;
+    }
+    .container .form{
+        width: 450px;
+    }
+    .form label{
+        text-align: left;
+    }
+    .form input{
+        width:450px ;
+    }
+    .form textarea{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 375px)
